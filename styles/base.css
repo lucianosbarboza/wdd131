@@ -28,7 +28,7 @@ text-decoration:none;
 }
 nav a:hover{
 
-color:yellow;
+color: gold;
 
 }
 main{
@@ -42,6 +42,7 @@ display:grid;
 grid-template-columns: 2fr 1fr;
 
 gap:1rem;
+color: gold;
 
 }
 main h1{
@@ -65,7 +66,7 @@ line-height: 1.6;
 }
 .card h2{
 
-background:#2b5d80;
+background: #650165;
 
 color:rgb(255, 255, 255);
 
@@ -78,15 +79,21 @@ margin:-20px -20px 20px -20px;
 text-align:center;
 
 }
+
+.card ul{
+list-style: disc inside;
+font-size: large;
+}
+
 footer{
 
-background:#2b5d80;
+background:0#650165;
 
 color:rgb(255, 255, 255);
 
 text-align:center;
 
-padding:20px;
+padding:10px;
 
 }
 
@@ -141,4 +148,11 @@ text-align:center;
 }
 h3{
     text-align: center;
+}
+img.profile-image{
+    width: 150px;
+    border-radius: 10%;
+    border: 5px solid gold;
+    display: block;
+    margin: 10px auto;
 }
