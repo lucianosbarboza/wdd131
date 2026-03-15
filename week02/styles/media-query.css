@@ -1,0 +1,11 @@
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+header, main, footer{
+max-width: 640px;
+margin: 1rem auto;
+border: 1px solid #8f8e8e;
+padding: 1rem;
+background-color: beige;
+}
