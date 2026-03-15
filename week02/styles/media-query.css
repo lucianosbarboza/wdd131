@@ -9,3 +9,14 @@ border: 1px solid #8f8e8e;
 padding: 1rem;
 background-color: beige;
 }
+
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+}
+
+section{
+    padding: 1rem;
+    background-color: #fff;
+}
